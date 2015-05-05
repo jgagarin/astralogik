@@ -10,7 +10,7 @@ body {
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
-    background-image: url(../img/broken_noise.png);
+    /*background-image: url(../img/broken_noise.png);*/
 }
 
 html {
@@ -379,8 +379,8 @@ ul.banner-social-buttons {
 /*-- shows section --*/
 #shows{
     background: 
-        linear-gradient(rgba(0,0,0,0.8),
-        rgba(0,0,0,0.9)),
+        linear-gradient(rgba(0,0,0,0.7),
+        rgba(0,0,0,0.8)),
         url(../img/space-bg.jpg);
     background-attachment: fixed;
     width: 100%;
