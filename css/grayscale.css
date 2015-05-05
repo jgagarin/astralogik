@@ -271,11 +271,38 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(../img/space-bg.jpg) no-repeat center center scroll;
+    background-attachment: fixed;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.album-cover{
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width: 692px){
+    
+    .album-cover{
+        margin-bottom: 25px;
+        width: 50%;
+        
+    }
+
+}
+@media(max-width:478px){
+    .album-cover{
+        float: none;
+        width: 50%;
+        display: block;
+        margin: 0px auto 25px;
+    }
+
 }
 
 #map {
@@ -286,7 +313,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
     .download-section {
